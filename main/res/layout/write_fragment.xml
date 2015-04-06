@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/label_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_write"
+        android:textSize="20sp"
+    />
+
+    <View
+        android:layout_below="@id/label_description"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+    />
+
+    <LinearLayout
+        android:id="@+id/uid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/label_description"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+    >
+        <LinearLayout
+            android:id="@+id/uid_page0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/uid_byte0"
+                style="@style/Writeable"
+                />
+            <EditText
+                android:id="@+id/uid_byte1"
+                style="@style/Writeable"
+                />
+            <EditText
+                android:id="@+id/uid_byte2"
+                style="@style/Writeable"
+                />
+            <EditText
+                android:id="@+id/uid_byte3"
+                style="@style/ReadOnly"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uid_page1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/uid_byte4"
+                style="@style/Writeable"
+                />
+            <EditText
+                android:id="@+id/uid_byte5"
+                style="@style/Writeable"
+                />
+            <EditText
+                android:id="@+id/uid_byte6"
+                style="@style/Writeable"
+                />
+            <EditText
+                android:id="@+id/uid_byte7"
+                style="@style/Writeable"
+                />
+
+        </LinearLayout>
+
+<!--        <LinearLayout
+            android:id="@+id/uid_page2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+
+            <EditText
+                android:id="@+id/uid_byte8"
+                style="@style/ReadOnly"
+                />
+            <EditText
+                android:id="@+id/uid_byte9"
+                style="@style/ReadOnly"
+                />
+            <EditText
+                android:id="@+id/uid_byte10"
+                style="@style/ReadOnly"
+                />
+            <EditText
+                android:id="@+id/uid_byte11"
+                style="@style/ReadOnly"
+                />
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/read_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_write" />
+
+</RelativeLayout>

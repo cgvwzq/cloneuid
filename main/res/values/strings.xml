@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CloneUID</string>
+
+    <string name="title_section1">Bring near the tag</string>
+    <string name="title_section2">Overwrite UID</string>
+
+    <string name="description_read">Please, bring near the tag to clone</string>
+    <string name="description_write">Click and overwrite your blank card</string>
+    <string name="button_write">Overwrite</string>
+    <string name="empty_byte">00</string>
+    <string name="your_uid">Your UID is:</string>
+
+    <string name="menu_changelog">ChangeLog</string>
+    <string name="menu_about">About</string>
+
+    <!-- changelog strings -->
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+
+</resources>

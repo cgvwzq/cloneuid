@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Writeable" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">.25</item>
+        <item name="android:digits">0123456789ABCDEFabcdef</item>
+        <item name="android:text">@string/empty_byte</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:maxLength">2</item>
+    </style>
+
+    <style name="ReadOnly" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">.25</item>
+        <item name="android:digits">0123456789ABCDEFabcdef</item>
+        <item name="android:text">@string/empty_byte</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:inputType">none</item>
+        <item name="android:focusable">false</item>
+        <item name="android:background">#33ff0000</item>
+    </style>
+
+</resources>

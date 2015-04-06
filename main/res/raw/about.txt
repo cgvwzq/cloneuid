@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style type='text/css'>
+      a            { color:#a0a0e0 }
+      div.title    {
+          color:#C0F0C0;
+          font-size:1.2em;
+          font-weight:bold;
+          margin-top:1em;
+          margin-bottom:0.5em;
+          text-align:center }
+      div.subtitle {
+          color:#C0F0C0;
+          font-size:0.8em;
+          margin-bottom:1em;
+          text-align:center }
+      div.freetext { color:#F0F0F0 }
+      div.list     { color:#C0C0F0 }
+    </style>
+  </head>
+  <body>
+$ 1.0
+  % Author
+  _ Pepe Vila (cgvwzq)
+  % Source code
+    _ <a href="https://github.com/cgvwzq/cloneuid">https://github.com/cgvwzq/cloneuid</a>
+$ END_OF_CHANGE_LOG
+  </body>
+</html>
