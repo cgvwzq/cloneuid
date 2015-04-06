@@ -24,7 +24,7 @@ $ 0.1
   _ 2015-04-06
   ! <b>CloneUID</b> beta release!
     * Support for MIFARE Ultralight.
-    * Requires an UID writeable tag.
+    * Requires an UID writable tag.
 $ END_OF_CHANGE_LOG
   </body>
 </html>
