@@ -1,5 +1,6 @@
 package net.vwzq.cloneuid;
 
+import android.os.Build;
 import android.view.View;
 
 public class Utils {
@@ -37,15 +38,19 @@ public class Utils {
 
         final View view = v;
 
-        if (ok) {
-            view.setBackground(view.getContext().getResources().getDrawable(R.drawable.border_green, null));
+        if (android.os.Build.VERSION.SDK_INT >= 22) {
+            view.setBackground(view.getContext().getResources().getDrawable(ok ? R.drawable.border_green : R.drawable.border_red, null));
         } else {
-            view.setBackground(view.getContext().getResources().getDrawable(R.drawable.border_red, null));
+            view.setBackground(view.getContext().getResources().getDrawable(ok ? R.drawable.border_green : R.drawable.border_red));
         }
 
         final Runnable r = new Runnable() {
             public void run() {
-                view.setBackground(view.getContext().getResources().getDrawable(R.drawable.border_default, null));
+                if (android.os.Build.VERSION.SDK_INT >= 22) {
+                    view.setBackground(view.getContext().getResources().getDrawable(R.drawable.border_default, null));
+                } else {
+                    view.setBackground(view.getContext().getResources().getDrawable(R.drawable.border_default));
+                }
             }
         };
 

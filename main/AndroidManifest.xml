@@ -4,6 +4,8 @@
     android:versionName="0.1" >
 
     <uses-permission android:name="android.permission.NFC" />
+    <uses-sdk android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
 
     <application
         android:allowBackup="true"

@@ -13,3 +13,4 @@ Easy to use Android app for reading and writing UIDs. Two main modes: read and w
 
 ### ToDo
 * Persistent storage for favorite UIDs
+* Support to NFC APIs < Level 19
