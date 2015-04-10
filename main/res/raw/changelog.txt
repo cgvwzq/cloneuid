@@ -19,10 +19,15 @@
     </style>
   </head>
   <body>
-$ 0.1
-  % Version 1.0
+  $ 0.1
+    % Version 0.1
+    _ 2015-04-10
+    ! <b>CloneUID</b> release!
+      * Fixed bug (< API level 22)
+$ beta
+  % Version beta
   _ 2015-04-06
-  ! <b>CloneUID</b> beta release!
+  ! <b>CloneUID</b> beta
     * Support for MIFARE Ultralight.
     * Requires an UID writable tag.
 $ END_OF_CHANGE_LOG
